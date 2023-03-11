@@ -3,9 +3,14 @@ html {
 }
 
 .container{
-  color: green;
   max-width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
   margin: 0 auto;
   padding: 2%;
+
+  border: 1px solid blue;
+  color: green;
 }
